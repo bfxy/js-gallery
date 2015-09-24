@@ -16,3 +16,15 @@ $(document).bind('keyup', function(e) {
 		$('.carousel').carousel('prev');
 	}
 });
+
+// Toggle controls when hovering over body
+$(document).ready(function() {
+	$('body').on('mouseenter', function() {
+		//$('.controls').css({'display': 'none'})
+		$('.controls').fadeIn();
+	});
+	$('body').on('mouseleave', function() {
+	//$('.controls').css({'display': 'none'})
+	$('.controls').fadeOut();
+	});
+});

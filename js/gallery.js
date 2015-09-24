@@ -1,4 +1,4 @@
-// Turn off stupid slide-show
+// Turn off stupid slideshow
 $(function() {
     $('.carousel').each(function(){
         $(this).carousel({
@@ -16,4 +16,3 @@ $(document).bind('keyup', function(e) {
 		$('.carousel').carousel('prev');
 	}
 });
-

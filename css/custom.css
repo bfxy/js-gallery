@@ -1,3 +1,27 @@
+@media (min-width: 400px) {
+	.carousel-inner img{ 
+		max-height: 200px;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel-inner img{ 
+		max-height: 300px;
+	}
+}
+
+@media (min-width: 992px) {
+	.carousel-inner img{ 
+		max-height: 400px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.carousel-inner img{ 
+		max-height: 500px;
+	}
+}
+
 html, body {
 	height: 100%;
 }
@@ -13,8 +37,9 @@ html, body {
 
 .carousel-inner img {
 	max-width: auto;
-	max-height: 500px;
-	margin-top: 20px;
+	margin-top: 10%;
+	margin-bottom:10%;
+
 }
 
 .thumbs {
@@ -39,3 +64,4 @@ html, body {
 	max-height: 100px;
 	width: auto;
 }
+

@@ -15,5 +15,27 @@ html, body {
 	max-width: auto;
 	max-height: 500px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+}
+
+.thumbs {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.thumb-list {
+	width: 5000px;
+	overflow: hidden;
+}
+
+.thumb-list li {
+	display: inline;
+	list-style: none;
+	float: left;
+}
+
+.thumbs img {
+	max-height: 100px;
+	width: auto;
 }

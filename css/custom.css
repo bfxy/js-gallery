@@ -22,23 +22,14 @@
 	}
 }
 
-html, body {
-	height: 100%;
-}
 
 .container-fluid{
 	padding-right: 0;
 	padding-left: 0;
 }
 
-.carousel {
-
-}
-
 .carousel-inner img {
-	max-width: auto;
 	margin-top: 10%;
-	margin-bottom:10%;
 
 }
 

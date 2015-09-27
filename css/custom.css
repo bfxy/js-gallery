@@ -14,16 +14,27 @@
 	.carousel-inner img{ 
 		max-height: 400px;
 	}
+
+	.thumb-control {
+		height: 100px;
+	}	
 }
 
 @media (min-width: 1200px) {
 	.carousel-inner img{ 
 		max-height: 500px;
 	}
+	.thumb-control {
+		height: 100px;
+	}
 }
 
+.col-xs-1, .col-xs-10 {
+	padding-left: 0;
+	padding-right: 0;
+}
 
-.container-fluid{
+.container-fluid {
 	padding-right: 0;
 	padding-left: 0;
 }
@@ -33,6 +44,21 @@
 
 }
 
+.thumb-control {
+	position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+
+.thumb-control span {
+	top: 50%;
+	display: inline-block;
+}
+
 .thumbs {
 	overflow: hidden;
 	width: 100%;
@@ -40,9 +66,20 @@
 	padding: 0;
 }
 
+.thumbs img {
+	max-height: 100px;
+	width: auto;
+}
+
 .thumb-list {
 	width: 5000px;
 	overflow: hidden;
+	position: relative;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 
 .thumb-list li {
@@ -51,8 +88,4 @@
 	float: left;
 }
 
-.thumbs img {
-	max-height: 100px;
-	width: auto;
-}
 

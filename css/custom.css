@@ -2,6 +2,21 @@ html, body {
 	height: 100%;
 }
 
+body {
+
+    background:
+    linear-gradient(
+    	rgba(0, 0, 0, 0.75), 
+    	rgba(0, 0, 0, 0.75)
+    ), 
+    url('../img/background.jpeg') no-repeat center center fixed;
+    background-size: 100% auto; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 @media (min-width: 400px) {
 	.carousel-inner img{ 
 		max-height: 200px;
@@ -63,7 +78,8 @@ html, body {
 }
 
 .carousel-inner img {
-	margin-top: 10%;
+	margin-top: 8%;
+	margin-bottom: 3%;
 
 }
 

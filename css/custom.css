@@ -3,8 +3,7 @@ html, body {
 }
 
 body {
-
-    background:
+	background:
     linear-gradient(
     	rgba(0, 0, 0, 0.75), 
     	rgba(0, 0, 0, 0.75)
@@ -66,25 +65,22 @@ body {
 	padding-left: 15px;
 }
 
-.col-xs-1, .col-xs-10 {
+.col-xs-1, .col-xs-10, .container-fluid {
 	padding-left: 0;
 	padding-right: 0;
-}
-
-
-.container-fluid {
-	padding-right: 0;
-	padding-left: 0;
 }
 
 .carousel-inner img {
 	margin-top: 8%;
 	margin-bottom: 3%;
-
 }
 
 .carousel-control {
 	background-image: none;
+}
+
+.row {
+ 	margin: 0;
 }
 
 .thumb-control {
@@ -144,6 +140,7 @@ body {
 body > .container {
   padding: 60px 15px 0;
 }
+
 .container .text-muted {
   margin: 20px 0;
 }

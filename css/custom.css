@@ -25,6 +25,9 @@ body {
 	.carousel-inner img{ 
 		max-height: 200px;
 	}
+	.thumb-control, .row {
+		height: 100px;
+	}
 }
 
 @media (min-width: 768px) {

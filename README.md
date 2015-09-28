@@ -4,8 +4,8 @@
 
 #### Общие требования
 
-- :no_entry: Использовать шаблонизатор BEMHTML и JS-фреймворк i-bem.js. *
-    - :point_right: [Bootstrap 3](http://getbootstrap.com/)
+- :heavy_minus_sign: Использовать шаблонизатор BEMHTML и JS-фреймворк i-bem.js. *
+    - :heavy_plus_sign: [Bootstrap 3](http://getbootstrap.com/)
 - :metal: Поддержать последние версии браузеров.
 
 #### Функциональные требования

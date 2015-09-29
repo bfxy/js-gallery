@@ -115,6 +115,7 @@ body {
 .thumbs img {
 	max-height: 100px;
 	width: auto;
+	cursor: pointer;
 }
 
 .thumb-list {

@@ -5,9 +5,9 @@ $(window).load(function () {
     hideFirst();
     hideLast();
     showControls('.carousel', '.controls');
-    showControls('.thumbnails', '.thumb-controls');
     showControls('.thumbnails', '.thumbs');
-    // navigation();
+    //showControls('.thumbnails', '.thumb-controls');
+    //navigation();
 });
 
 // Keyboard controls
@@ -70,14 +70,19 @@ $(function() {
     });
 });
 
-/* function navigation() {
+/*
+function navigation() {
     var ribbonPos = document.getElementById('ribbon').scrollWidth - $(window).width() + 40;
-    console.log(ribbonPos);
     $(".right.thumb-control").mouseover(function(){
         var time = ribbonPos * 300/200;
-            $('.allImages').stop().animate({left: - ribbonPos}, time);
-            }); 
-} */
+        $('.thumb-list').stop().animate({left: - ribbonPos}, time);
+    });    
+    $(".right.thumb-control").mouseout(function(){
+        $('.thumb-list').stop().animate();
+        
+    });
+}    
+*/
 
 // Jump to photo from thumbnails
 function thumbHandler() {
